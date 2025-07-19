@@ -9,12 +9,7 @@ plt.style.use('seaborn-v0_8')
 move_options = ((-1, 1), (0, 1), (1, 1), (1, 0), (1, -1), (0, -1), (-1, -1), (-1, 0))
 TRIALS = 10000
 
-#Initialize location
-move_setx = [0]
-move_sety = [0]
-
 num_steps = (10, 50, 100) #Steps accounted for are 10, 50, and 100
-###########steps = int(input("How many steps do you want to take?: "))
 
 # ---- Initialize variables ---- #
 
